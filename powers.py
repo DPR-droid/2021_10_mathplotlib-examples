@@ -1,5 +1,5 @@
 ########################################################################
-# 2dplot2.py
+# scatter.py
 # Author David
 # matplotlib tutorial
 ########################################################################
@@ -7,17 +7,13 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-x = np.arange(0.0, 10.0, 0.01)
-y = 3.0 * x + 1.0
-noise = np.random.normal(0.0, 1.0, len(x))
+x = np.arange(1.0, 10.0, 0.1)
 
+plt.plot(x, x**2, 'g-', label="x^2")
+plt.plot(x, x**3, 'g-', label="x^3")
+plt.plot(x, x**4, 'g-', label="x^4")
+plt.plot(x, 2**x, 'g-', label="2^x")
 
-plt.plot(x, y + noise, 'r.')
-plt.plot(x, y,  'b-')
-
-plt.show()
-
-plt.plot(x, y + noise, 'c.')
-plt.plot(x, y,  'g-')
+plt.legend()
 
 plt.show()
