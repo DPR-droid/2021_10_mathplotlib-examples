@@ -20,6 +20,8 @@ sin.py
 numpy-random.ipynb
 
 ## Fundamentals of Data Analysis
+Contains an overvew of numpy.random package in a Jupyter Notebook
+***
 numpy_random.ipynb
 
 # Browser Workflow Jupyter
