@@ -4,14 +4,14 @@ The following conatins example used for course work in Programming for Data Anal
 
 # mathplotlib-examples
 ## Programming for Data Analysis
-2dplot.py
-2dplot2.py
-2dplot3.py
-histo.py
-histo2.py
-powers.py
-scatter.py
-sin.py
+2dplot.py <br />
+2dplot2.py <br />
+2dplot3.py <br />
+histo.py <br />
+histo2.py <br /> 
+powers.py <br />
+scatter.py <br />
+sin.py <br />
 
 ## Fundamentals of Data Analysis
 
